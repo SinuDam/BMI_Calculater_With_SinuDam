@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BMI Calculator With SinuDam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧮 BMI Calculator with SinuDam</h1>
+    <div class="input-group">
+      <input type="number" id="weight" placeholder="Weight (kg)" required>
+      <input type="number" id="height" placeholder="Height (cm)" required>
+    </div>
+    <button onclick="calculateBMI()">Calculate</button>
+    <div class="result" id="resultBox">
+      <p id="bmiValue">Your BMI: :-</p>
+      <p id="bmiCategory">Category: :-</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
